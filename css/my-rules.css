@@ -1,0 +1,70 @@
+.my-rules {
+  background: url("../img/bg-my-rules.webp");
+}
+
+.my-rules__section {
+  padding-top: 0;
+}
+
+.my-rules__container {
+  display: grid;
+  gap: 40px;
+  justify-content: center;
+}
+
+.my-rules__thanks-kiss,
+.my-rules__image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.my-rules__content,
+.my-rules__list {
+  display: grid;
+  gap: 16px;
+}
+
+.my-rules__list.my-rules__list--details {
+  padding-left: 20px;
+  gap: 7px;
+}
+
+.my-rules__list.my-rules__list--details li {
+  list-style: disc;
+}
+
+.my-rules__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.my-rules__thanks {
+  text-align: center;
+}
+
+.my-rules__subtitle {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1200px) {
+  .my-rules__container {
+    grid-template-columns: auto 1fr;
+    gap: 54px;
+  }
+  .my-rules__section {
+    padding-top: 80px;
+  }
+  .my-rules__content,
+  .my-rules__list {
+    gap: 20px;
+  }
+  .my-rules__thanks {
+    width: max-content;
+  }
+  .my-rules__title {
+    font-size: 32px;
+  }
+  .my-rules__thanks-kiss {
+    margin-top: -90px;
+  }
+}

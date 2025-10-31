@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/my-rules.css" />
+  </head>
+  <body class="my-rules">
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html" class="nav__link">MAIN</a></li>
+            <li class="nav__item"><a href="./about-me.html" class="nav__link">ABOUT ME</a></li>
+            <li class="nav__item"><a href="./my-rules.html" class="nav__link">MY RULES</a></li>
+            <li class="nav__item"><a href="./what-i-like-in-bed.html" class="nav__link">WHAT I LIKE IN BED</a></li>
+            <li class="nav__item"><a href="./wishlist.html" class="nav__link">WISHLIST</a></li>
+          </ul>
+        </nav>
+
+        <button type="button" class="header__toggle toggle-mob-menu js-toggle-mob-menu" aria-label="Toggle menu">
+          <svg width="35" height="35" style="fill: #323232">
+            <use href="./icons/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu js-mob-menu">
+          <button type="button" class="mob-menu__close js-mob-menu-close" aria-label="Close menu">
+            <svg class="mob-menu__icon" width="20" height="20">
+              <use href="./icons/sprite.svg#icon-cross"></use>
+            </svg>
+          </button>
+
+          <ul class="mob-menu__list">
+            <li class="mob-menu__item">
+              <a href="./index.html" class="mob-menu__link">MAIN</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./about-me.html" class="mob-menu__link">ABOUT ME</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./my-rules.html" class="mob-menu__link">MY RULES</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./what-i-like-in-bed.html" class="mob-menu__link">WHAT I LIKE IN BED</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./wishlist.html" class="mob-menu__link">WISHLIST</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="my-rules">
+      <section class="my-rules__section section">
+        <div class="my-rules__container container">
+          <div class="my-rules__image-wrapper">
+            <picture class="my-rules__picture">
+              <source srcset="./img/marinakomssar@1x.webp 1x, ./img/marinakomssar@2x.webp 2x" type="image/webp" />
+              <img class="my-rules__image" src="./img/marinakomssar@1x.jpg" alt="woman" width="445" height="668" />
+            </picture>
+          </div>
+
+          <div class="my-rules__content">
+            <ul class="my-rules__list my-rules__list--main">
+              <li class="my-rules__item">1. Please, don’t call, just text me on WhatsApp. We can arrange a call if needed, but only when it’s comfortable for both of us. I block for random calls, especially at night.</li>
+              <li class="my-rules__item">2. You can check my current prices and services on my Euro Girls profile. Prices are non-negotiable. Discount requests I qualify as disrespect.</li>
+              <li class="my-rules__item">3. In your first message to me, I expect to see such information as:</li>
+            </ul>
+
+            <ul class="my-rules__list my-rules__list--details">
+              <li class="my-rules__item"><b>suggested day, time, and location of our meeting;</b></li>
+              <li class="my-rules__item"><b>information about you</b> - at least something basic, like age, occupation, ethnicity. I don’t meet anonymous people, as it’s a matter of my safety and comfort. Of course, everything you share is confidential;</li>
+              <li class="my-rules__item"><b>your photo</b> - really appreciate if you can send it (if it’s not in your WA profile already);</li>
+              <li class="my-rules__item"><b>your preferences,</b> if you have, expectations from our date, and anything you’d like to share: everything that helps me to get your vibe before we actually meet, and, possibly, to tailor a unique experience for you.</li>
+            </ul>
+
+            <ul class="my-rules__list my-rules__list--extra">
+              <li class="my-rules__item">I don’t meet everyone, I believe we should have some mutual sympathy for a mutually pleasant experience.</li>
+              <li class="my-rules__item">4. Please, book at least 2-3 hours before. 1 day before is perfect. If you want to book a longer meeting, the sooner the better.</li>
+              <li class="my-rules__item">5. I don’t use drugs, and won’t stay with someone who does. Moderate consumption of alcohol during the meeting is ok.</li>
+              <li class="my-rules__item">6. I care about my health. That means no unprotected sex, regardless of the reward.</li>
+              <li class="my-rules__item">7. Just be nice, mutual respect is a key.</li>
+            </ul>
+
+            <div class="my-rules__thanks">
+              <h1 class="my-rules__title">Thanks for attention!</h1>
+              <p class="my-rules__subtitle">(good boys get the best)</p>
+            </div>
+            <div class="my-rules__thanks-kiss">
+              <picture>
+                <source srcset="./img/kiss@1x.webp 1x, ./img/kiss@2x.webp 2x" type="image/webp" />
+                <img class="my-rules__image" src="./img/kiss@1x.png" alt="woman" width="400" height="297" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__instagram">
+          Follow me on Instagram -
+          <a href="https://www.instagram.com/muse.in.lace" target="_blank" rel="noopener noreferrer" class="footer__link">@muse.in.lace</a>
+        </p>
+        <svg class="footer__icon" width="32" height="32">
+          <use href="./icons/sprite.svg#icon-heart"></use>
+        </svg>
+        <p>
+          Bookings via WhatsApp messages only:
+          <a href="tel:+420770665082" class="footer__link">+420770665082</a>
+        </p>
+      </div>
+    </footer>
+    <script defer src="./js/main.js"></script>
+  </body>
 </html>

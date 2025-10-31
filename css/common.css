@@ -63,7 +63,7 @@ body {
 
 .mob-menu__link {
   padding: 6px 20px;
-  display: inline-block;
+  display: block;
   font-weight: 600;
 }
 
