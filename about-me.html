@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/about-me.css" />
+  </head>
+  <body class="about-me">
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html" class="nav__link">MAIN</a></li>
+            <li class="nav__item"><a href="./about-me.html" class="nav__link">ABOUT ME</a></li>
+            <li class="nav__item"><a href="./my-rules.html" class="nav__link">MY RULES</a></li>
+            <li class="nav__item"><a href="./what-i-like-in-bed.html" class="nav__link">WHAT I LIKE IN BED</a></li>
+            <li class="nav__item"><a href="./wishlist.html" class="nav__link">WISHLIST</a></li>
+          </ul>
+        </nav>
+
+        <button type="button" class="header__toggle toggle-mob-menu js-toggle-mob-menu" aria-label="Toggle menu">
+          <svg width="35" height="35" style="fill: #fff">
+            <use href="./icons/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu js-mob-menu">
+          <button type="button" class="mob-menu__close js-mob-menu-close" aria-label="Close menu">
+            <svg class="mob-menu__icon" width="20" height="20">
+              <use href="./icons/sprite.svg#icon-cross"></use>
+            </svg>
+          </button>
+
+          <ul class="mob-menu__list">
+            <li class="mob-menu__item">
+              <a href="./index.html" class="mob-menu__link">MAIN</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./about-me.html" class="mob-menu__link">ABOUT ME</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./my-rules.html" class="mob-menu__link">MY RULES</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./what-i-like-in-bed.html" class="mob-menu__link">WHAT I LIKE IN BED</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./wishlist.html" class="mob-menu__link">WISHLIST</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section about">
+        <div class="about__container container">
+          <div class="about__image">
+            <picture>
+              <source srcset="./img/woman-about-me@1x.webp 1x, ./img/woman-about-me@2x.webp 2x" />
+              <img src="./img/woman-about-me.png" alt="woman" />
+            </picture>
+          </div>
+          <div class="about__content">
+            <h1 class="about__title">Who Am I?</h1>
+
+            <div class="about__text">
+              <p class="about__paragraph">Usually, an introduction starts with the name, but I don’t reveal my real name to everyone, for obvious reasons. So, for now, you can call me Muse, because that’s what I want to be for you.</p>
+
+              <p class="about__paragraph">I am a fairly educated girl: I have a bachelor’s degree in history, and a passion for arts and philosophy. I have plans to continue my studies and change my job in the future, but for now I feel completely satisfied with what I do.</p>
+
+              <p class="about__paragraph">I am kind and tender, so I often hear that I have an angelic vibe — which is why I even made a few photos with wings. However, I can be a pure evil, if I feel that someone is taking my kindness for weakness.</p>
+
+              <p class="about__paragraph">And despite my serious face on photos, in real life I’m quite smiley and like to laugh.</p>
+
+              <p class="about__paragraph">What I offer you is a girlfriend experience, full of warmth and softness, and the hottest sex you will want to repeat.</p>
+
+              <p class="about__paragraph">Can’t imagine my life without adventures, so maybe we’ll create the next one together?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__instagram">
+          Follow me on Instagram -
+          <a href="https://www.instagram.com/muse.in.lace" target="_blank" rel="noopener noreferrer" class="mob-menu__link">@muse.in.lace</a>
+        </p>
+        <svg class="footer__icon" width="32" height="32">
+          <use href="./icons/sprite.svg#icon-heart"></use>
+        </svg>
+        <p>
+          Bookings via WhatsApp messages only:
+          <a href="tel:+420770665082" class="mob-menu__link">+420770665082</a>
+        </p>
+      </div>
+    </footer>
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>

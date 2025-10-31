@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="main-page">
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html" class="nav__link">MAIN</a></li>
+            <li class="nav__item"><a href="./about-me.html" class="nav__link">ABOUT ME</a></li>
+            <li class="nav__item"><a href="./my-rules.html" class="nav__link">MY RULES</a></li>
+            <li class="nav__item"><a href="./what-i-like-in-bed.html" class="nav__link">WHAT I LIKE IN BED</a></li>
+            <li class="nav__item"><a href="./wishlist.html" class="nav__link">WISHLIST</a></li>
+          </ul>
+        </nav>
+
+        <button type="button" class="header__toggle toggle-mob-menu js-toggle-mob-menu" aria-label="Toggle menu">
+          <svg width="35" height="35" style="fill: #fff">
+            <use href="./icons/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu js-mob-menu">
+          <button type="button" class="mob-menu__close js-mob-menu-close" aria-label="Close menu">
+            <svg class="mob-menu__icon" width="20" height="20">
+              <use href="./icons/sprite.svg#icon-cross"></use>
+            </svg>
+          </button>
+
+          <ul class="mob-menu__list">
+            <li class="mob-menu__item">
+              <a href="./index.html" class="mob-menu__link">MAIN</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./about-me.html" class="mob-menu__link">ABOUT ME</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./my-rules.html" class="mob-menu__link">MY RULES</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./what-i-like-in-bed.html" class="mob-menu__link">WHAT I LIKE IN BED</a>
+            </li>
+            <li class="mob-menu__item">
+              <a href="./wishlist.html" class="mob-menu__link">WISHLIST</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section>
+        <div class="container">
+          <h1 class="main-title">
+            <span>Your</span>
+            <span>Muse</span>
+            <span> <i>in</i> Town </span>
+          </h1>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__instagram">
+          Follow me on Instagram -
+          <a href="https://www.instagram.com/muse.in.lace" target="_blank" rel="noopener noreferrer" class="footer__link">@muse.in.lace</a>
+        </p>
+        <svg class="footer__icon" width="32" height="32">
+          <use href="./icons/sprite.svg#icon-heart"></use>
+        </svg>
+        <p>
+          Bookings via WhatsApp messages only:
+          <a href="tel:+420770665082" class="footer__link">+420770665082</a>
+        </p>
+      </div>
+    </footer>
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>
