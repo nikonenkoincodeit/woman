@@ -41,10 +41,6 @@ body {
 }
 
 .toggle-mob-menu {
-  width: 40px;
-  min-width: 40px;
-  display: grid;
-  gap: 8px;
   padding: 16px 0 16px 16px;
 }
 
@@ -103,6 +99,7 @@ body {
 .footer__link {
   color: #7b1e3c;
   padding: 10px 0;
+  display: block;
 }
 /*-----------footer-end----------------*/
 
@@ -146,5 +143,8 @@ body {
   }
   .footer__icon {
     order: 0;
+  }
+  .footer__link {
+    display: inline-block;
   }
 }

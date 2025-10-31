@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   background: url("../img/woman-main.webp") no-repeat top center;
+  background-position: 65% 0; 
   background-size: cover;
 }
 
@@ -36,10 +37,16 @@
     justify-content: center;
     padding-top: 0;
   }
+  .main-page {
+    background-position: 30% 0; 
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .main-title {
     font-size: 62px;
+  }
+  .main-page {
+    background-position: 0 0; 
   }
 }
