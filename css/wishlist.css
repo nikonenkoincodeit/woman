@@ -95,3 +95,10 @@
     margin-top: 80px;
   }
 }
+.image_2d1170e5-e92f-41b1-9f4a-ebb96b095029 {
+    background-repeat: no-repeat;      /* не повторять */
+    background-size: cover;            /* растянуть пропорционально */
+    background-position: center center;/* выровнять по центру */
+    width: 100%;                       /* растянуть на всю ширину родителя */
+    height: 100%;                      /* задать высоту (или через min-height) */
+  }
